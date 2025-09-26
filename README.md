@@ -35,5 +35,4 @@ Each notebook demonstrates a specific algorithm with explanations, training, and
 ## Roadmap
 
 - Add more regression and classification models (Decision Trees, Random Forests, Neural Networks).
-- Add datasets + visualization results.
 - Add theory notes in markdown cells for better learning.
