@@ -15,7 +15,7 @@ Each notebook demonstrates a specific algorithm with explanations, training, and
 - [Logistic Regression](Regression/Logistic%20Regression.ipynb)
 - [Support Vector Regression (SVR)](Regression/SVR%20Regression.ipynb)
 - [Bayesian Regression.ipynb](Regression/Bayesian%20Regression.ipynb)
-
+- [Quantile Regression.ipynb](Regression/Qunatile%20Regression.ipynb)
 
 ## How to Run
 1. Clone this repo:
