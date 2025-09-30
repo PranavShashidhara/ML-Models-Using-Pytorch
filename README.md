@@ -14,7 +14,7 @@ Each notebook demonstrates a specific algorithm with explanations, training, and
 - [Huber Linear Regression](Regression/Huber%20Linear%20Regression.ipynb)
 - [Logistic Regression](Regression/Logistic%20Regression.ipynb)
 - [Support Vector Regression (SVR)](Regression/SVR%20Regression.ipynb)
-
+- [Bayesian Regression.ipynb](Regression/Bayesian%20Regression.ipynb)
 
 
 ## How to Run
