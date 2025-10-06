@@ -12,12 +12,14 @@ Each notebook demonstrates a specific algorithm with explanations, training, and
 - [Ridge Regression](Regression/Ridge%20Regression.ipynb)
 - [Elastic Net Regression](Regression/Elastic%20Regression.ipynb)
 - [Huber Linear Regression](Regression/Huber%20Linear%20Regression.ipynb)
-- [Logistic Regression](Regression/Logistic%20Regression.ipynb)
 - [Support Vector Regression (SVR)](Regression/SVR%20Regression.ipynb)
 - [Bayesian Regression.ipynb](Regression/Bayesian%20Regression.ipynb)
 - [Quantile Regression.ipynb](Regression/Qunatile%20Regression.ipynb)
 - [SVR Regression.ipynb](Regression/SVR%20Regression.ipynb)
 
+### Classification Models 
+- [Logistic Regression](Classification/Logistic%20Regression.ipynb)
+- [SVM](Classification/SVM.ipynb)
 ## How to Run
 1. Clone this repo:
 ```bash
