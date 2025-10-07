@@ -20,6 +20,7 @@ Each notebook demonstrates a specific algorithm with explanations, training, and
 ### Classification Models 
 - [Logistic Regression](Classification/Logistic%20Regression.ipynb)
 - [SVM](Classification/SVM.ipynb)
+- [Naive Bayes](Classification/Naive Bayes.ipynb)
 ## How to Run
 1. Clone this repo:
 ```bash
