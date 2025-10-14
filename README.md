@@ -22,6 +22,8 @@ Each notebook demonstrates a specific algorithm with explanations, training, and
 - [SVM](Classification/SVM.ipynb)
 - [Naive Bayes](Classification/Naive%Bayes.ipynb)
 - [kNN](Classification/kNN.ipynb)
+- [Neural Network](Classification/Neural_network.ipynb)
+
 
 ## How to Run
 1. Clone this repo:
