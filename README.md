@@ -23,7 +23,7 @@ Each notebook demonstrates a specific algorithm with explanations, training, and
 - [Naive Bayes](Classification/Naive%Bayes.ipynb)
 - [kNN](Classification/kNN.ipynb)
 - [Neural Network](Classification/Neural_network.ipynb)
-
+- [CNN](Classification/CNN.py)
 
 ## How to Run
 1. Clone this repo:
