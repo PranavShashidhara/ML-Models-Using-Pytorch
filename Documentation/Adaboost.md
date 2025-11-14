@@ -2,7 +2,7 @@
 
 ## What is AdaBoost?
 
-AdaBoost (Adaptive Boosting) is like having a team of specialists who learn from each other's mistakes. Each specialist is pretty basic—they can only make simple decisions—but together, they become incredibly smart.
+AdaBoost (Adaptive Boosting) is like having a team of specialists who learn from each other's mistakes. Each specialist is pretty basic—they can only make simple decisions, but together, they become incredibly smart.
 
 ## The Big Picture
 
@@ -11,7 +11,7 @@ Think of it like this: You're trying to classify data, but instead of training o
 ## Key Players
 
 **Weak Learners (Decision Stumps)**
-- These are intentionally simple models—usually just a one-level decision tree
+- These are intentionally simple models—usually just a one level decision tree
 - They're only slightly better than random guessing
 - Think of them as basic yes/no questions: "Is the value greater than 5?"
 - Each stump chooses its split using the **Gini Index** to find the best threshold
@@ -24,7 +24,7 @@ Think of it like this: You're trying to classify data, but instead of training o
 **Amount of Say (α)**
 - Better-performing stumps get more influence in the final decision
 - Poor stumps barely contribute to the final answer
-- It's a meritocracy—good performers get heard more
+- It's a meritocracy, good performers get heard more
 
 ## How It Works: The Three-Step Dance
 
@@ -72,13 +72,13 @@ Now here's the magic:
 ```
 new_weight = old_weight × e^(-α)
 ```
-These get smaller—we care less about them now
+These get smaller, we care less about them now
 
 **For misclassified points:**
 ```
 new_weight = old_weight × e^(+α)
 ```
-These get bigger—the next stump MUST focus on these!
+These get bigger, the next stump MUST focus on these!
 
 **Normalize:** Divide all weights by their sum so they add up to 1 again
 
@@ -125,8 +125,8 @@ Each doctor uses the Gini index to find their best simple test, but they work on
 ## Key Takeaways
 
 - AdaBoost converts many weak learners into one strong learner
-- It's sequential—order matters because each model learns from previous errors
-- Sample weights force the algorithm to focus on hard-to-classify examples
+- It's sequential, order matters because each model learns from previous errors
+- Sample weights force the algorithm to focus on hard to classify examples
 - Better-performing weak learners get more influence (higher α)
 - The final model is a weighted combination of all weak learners
 
