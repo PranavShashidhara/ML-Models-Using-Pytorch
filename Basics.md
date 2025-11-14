@@ -24,3 +24,7 @@ Some terms which might be helpful to know beforehand:
       - Mean prediction: y_hat = x_*^T * μ_w  
       - Uncertainty: Var(y_*) = x_*^T * Σ_w * x_* + σ_y²  
       (Use all plausible weights from the posterior to predict and know how confident the model is.)
+
+**Stump** 
+  - A tree with one node and two leaves is called a stump. 
+  
